@@ -1,0 +1,54 @@
+# ─── QNX Momentics build output ───────────────
+build/
+aarch64le-debug/
+aarch64le-release/
+x86_64-debug/
+x86_64-release/
+*.o
+*.d
+*.obj
+
+# ─── QNX Momentics IDE metadata ───────────────
+.metadata/
+.settings/
+.project
+.cproject
+.bin/
+RemoteSystemsTempFiles/
+
+# ─── Python ───────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ─── AI model binaries (too large for git) ───
+*.pt
+*.engine
+*.onnx
+*.task
+
+# ─── OS clutter ───────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Editor / IDE ─────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── Logs and runtime state ───────────────────
+*.log
+*.pid
+/tmp/
+
+# ─── Secrets (just in case) ───────────────────
+.env
+*.key
+*.pem
